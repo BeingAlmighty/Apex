@@ -1,0 +1,11 @@
+# Ignore frontend files during backend build
+node_modules
+package.json
+package-lock.json
+vite.config.js
+*.jsx
+*.tsx
+src/
+public/
+dist/
+.env
