@@ -53,8 +53,8 @@ const SignIn1 = () => {
         className="relative z-10 w-full max-w-sm rounded-3xl bg-gradient-to-r from-[#ffffff10] to-[#121212] backdrop-blur-sm  shadow-2xl p-8 flex flex-col items-center">
         {/* Logo */}
         <div
-          className="flex items-center justify-center w-12 h-12 rounded-full bg-white/20 mb-6 shadow-lg">
-          <img src="http://hextaui.com/logo.svg" />
+          className="flex items-center justify-center w-18 h-18 rounded-full bg-white/20 mb-6 shadow-lg">
+          <img className="object-cover w-15 h-15 rounded-full" src="https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg" />
         </div>
         {/* Title */}
         <h2 className="text-2xl font-semibold text-white mb-6 text-center">

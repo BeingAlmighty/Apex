@@ -87,7 +87,7 @@ const Vector = () => {
       try {
 
         const response = await api.sendMessage(userMessageText)
-
+        
         setIsTyping(false)
 
         const aiResponse = {

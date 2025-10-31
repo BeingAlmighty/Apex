@@ -52,13 +52,13 @@ function Navbar() {
               <MenuItem setActive={setActive} active={active} item="Products">
                 <div className="text-sm grid grid-cols-1 gap-10 p-4">
                   <ProductItem
-                    title="Algochurn"
+                    title="Vector"
                     href="https://algochurn.com"
                     src="https://assets.aceternity.com/demos/algochurn.webp"
                     description="Prepare for tech interviews like never before."
                   />
                   <ProductItem
-                    title="Tailwind Master Kit"
+                    title="Zenith"
                     href="https://tailwindmasterkit.com"
                     src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
                     description="Production ready Tailwind css components for your next project"

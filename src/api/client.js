@@ -1,6 +1,6 @@
 // API client for backend communication
 
-const API_URL = 'http://localhost:8000/api/v1';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1';
 
 /**
  * API Client for Apex Career Navigator Backend
